@@ -1,4 +1,2 @@
-from . import models
-from . import wizard
-
+from . import property_change_state_wizard
 

@@ -69,12 +69,12 @@
 
                          <h1>
                              <label for="ref" class="form-label">ref:</label>
-                             <field name="ref" readonly="state=='closed'"/>
+                             <field name="ref" readonly="state !='draft'"/>
                          </h1>
 
                          <h2>
                              <label for="name" class="form-label">name:</label>
-                             <field name="name" readonly="state=='closed'"/>
+                             <field name="name" readonly="state !='draft'"/>
                          </h2>
                      </div>
                      <separator string="General" colspan="2" />
